@@ -1,0 +1,27 @@
+Low-SAR Path Discovery by Particle Swarm Optimization in WBAN
+
+It is about reducing the specific absorption rate(SAR) in WBAN using Particle Swarm Optimization (PSO).
+So when a sensor is placed inside the human body, it releases electromagnetic signals, which is not good for the human body. So, SAR measures the amount of radio frequency signals absorbed by the human tissues. Higher SAR indicates higher chances of effect on the human body.
+
+So how to minimize SAR?
+	By finding the best location for these relays, the path for data transmission can be adjusted to minimize SAR improving the success rate of packet transmission.
+
+A. Wireless Body Area Network(WBAN):
+WBAN is optimized for short-range, low-power, and highly reliable wireless communication, particularly for medical applications. Unlike WPAN and WSN, WBAN focuses on wearable and implantable sensors that collect physiological signals. These signals are transmitted to a hub, which then communicates with remote systems for health evaluation.
+Medical Implant Communication Service (MICS): 402 - 405 MHz
+Wireless Medical Telemetry Services (WMTS): 1427 - 1432 MHZ
+Industrial Scientific Medical (ISM): 2.4 GHz (High Speed for long distances)
+
+B. Specific Absorption Rate (SAR):
+SAR measures the rate of electromagnetic absorption per unit of tissue, expressed in watts per kg. It is crucial to assess the potential health impacts of EMF radiation from wireless devices.
+Different countries have different SAR limits: 
+FCC Countries (Australia, Canada, New Zealand, UK, and US)[These countries make rules for communications over radio, satellite, cable, or phone]:  1.6 W/Kg.
+
+ICNIRP Countries (India Comes under this)[International Commission on Non-Ionizing Radiation Protection]: 2 W/Kg.
+
+C. Particle Swarm Optimization (PSO):
+It is a computational method that optimizes a problem by iteratively trying to improve a candidate solution concerning a given measure of quality.
+
+
+Conclusion:
+PSO efficiently reduces EMF radiation exposure while maintaining high packet success rates, so, it extends node lifetime and improves network performance. The proposed node position (Between Wrist and arm) demonstrates a decrease in SAR levels and increased packet success rate.
