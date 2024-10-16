@@ -1,0 +1,75 @@
+Biosensors and Bioelectronics
+
+Sensors are three types:
+1. Physical
+2. Chemical
+3. Biosensors(Most Important)
+
+Biosensors are devices that detect biological substances and convert them into signals for analysis. They are classified based on transducer types, identification elements, or recognition elements. This has evolved through 3 key phases:
+1. introduction of enzyme electrodes
+2. Commercialization of biosensors
+3. Rise of nanotechnology.
+
+Growth in nanotechnology increased the growth of biosensors.
+
+Wearable sensor:
+It is a device that is mainly designed to be worn on the body. It is embedded in clothing, accessories, or directly on the skin. They continuously monitor various physiological and environmental parameters like heartbeat, body temperature, glucose levels, etc.
+
+There are different types in it:
+1. Wearable sweat sensors
+2. Wearable biosensors for biofluids
+3. Wearable saliva sensors
+4. Wearable tear sensors
+5. Wearable ISF sensors(Interstitial fluid)
+6. Wearable wound sensors
+7. Implantable blood biosensors.
+8. Wearable eatable biosensors.
+
+Fully Integrates Commercial wearable sensor:
+This is an advanced device that combines biosensors with wireless communication technology for continuous health monitoring. 
+These are embedded in various wearable forms.
+These are cost-effective and adding AI makes it more intelligent for health monitoring solutions.
+
+AI-Biosensors:
+This integrates AI with biosensors for better monitoring.
+This comes in three components:
+1. Information collection.
+2. Signal conversion.
+3. AI Data processing
+It is like adding AI features to IoT devices. It only makes it better to use. 
+China Started Healthy China 2030 with this concept
+
+Flexible bioelectrical materials:
+It is the integration of electric circuits for AI biosensors. These materials include flexible textiles and smart polymers. These provide mechanical support for wearable and adaptable biosensors.
+Key materials are:
+1. Polyimide(PI)
+2. Polyethylene terephthalate(PET)
+3. Polydimethylsiloxane(PDMS)
+Nanomaterials and carbon materials are used for their electrical conductivity and lightweight properties. 
+This is used for power and cost efficiency. 
+
+Wireless Communication:
+This is about the communication between AI biosensors and devices like mobiles.
+This adds flexibility and reduces cost.
+This is done by some features such as:
+1. Bluetooth
+2. NFC(Near-Field Communication)
+3. Radio-frequency identification
+4. Wi-Fi
+5. ZigBee
+6. Wireless Body Area Network.
+
+Smartphone-based platform:
+It is used for some main reasons
+1. Data processing
+2. Data sharing
+2. Interaction
+The main limitation of this data security. There may be a data leak because of the surety of this given by the third-party apps and security. Security is not responsible for us.
+
+AI-biosensor Networks (AIBN):
+This is an integration with artificial intelligence to enhance real-time monitoring across various domains.
+Their key applications are:
+1. Healthcare and Fitness
+2. Implantable Networks
+3. Elderly Monitoring
+4. Ambient Intelligence.
