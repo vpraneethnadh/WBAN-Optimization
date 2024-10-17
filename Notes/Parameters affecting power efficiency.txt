@@ -1,0 +1,29 @@
+Parameters affecting power efficiency:
+1. Transmission power
+2. Node density
+3. Communication Range
+4. Residual Energy of Nodes
+5. Packet Size
+6. Network Topology
+7. Link Quality
+
+Transmission Power:
+	The amount of power a device uses to transmit data directly affects energy consumption.
+
+Node Density:
+	The number of nodes in the network influences the routing efficiency and overall power consumption.
+
+Communication Range:
+	The distance over which a device can communicate with another impacts transmission power.
+
+Residual Energy of Nodes:
+	The remaining energy in each node is a critical factor in determining the routing path to ensure longevity and energy efficiency of the network.
+
+Packet Size:
+	The size of the data packets being transmitted affects the power consumption during communication.
+
+Network Topology:
+	The arrangement of nodes and their connections impacts the routing decisions and thus the energy efficiency of the network.
+
+Link Quality:
+	The reliability and stability of the communication link between nodes can influence retransmissions and consequently power usage.
