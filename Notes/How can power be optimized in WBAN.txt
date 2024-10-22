@@ -1,0 +1,89 @@
+How can power be optimized in WBAN:
+It is a wireless network so different types of wireless short-range technologies can be involved in different stages. 
+In this, we use different technologies like Bluetooth, ZigBee, WIFI, etc.
+
+So, We can send EMF signals to the human body up to 3 GHz.
+The EMF is calculated by SAR (Specific Area Network)
+1. It can be up to 1.6 W/Kg in FCC Countries.
+2. In the remaining countries it can be up to 2 W/Kg.
+
+In the Medical band, We use 402 - 405 MHz of EMF. This is considered as low-power.
+In the high-level medical band, We use 1427 - 1432 MHz, which has strict power limits to minimize tissue absorption.
+In the ISM (Industrial, Scientific, and Medical) band, We use 2.4 GHz. So this isn't harmful to the human body. 
+
+According to a study,
+
+Technology                Bluetooth     ZigBee     Wi-Fi     UWB
+Time taken (Micro sec)        4          802       0.018    0.009
+Data Rate (M bits)           0.72        0.25        54      110
+Efficiency                  94.41        76        97.18     97.94
+
+So according to this,
+1. The best one is UMB. But the main disadvantage is it takes a lot of energy.
+2. For lower power consumption, ZigBee is best. But it has a low data rate. Makes it very slow. Also, it is not that effective.
+3. WIFI offers a high data rate, But the power consumption can impact SAR value.
+
+So for the human body, The optimal one would be using Bluetooth as it is a safer and more energy-efficient option.
+
+Bluetooth 5.0 and newer versions have introduced long-range modes(up to 800 feet)
+Bluetooth is of two types:
+1. Class 2 - It has a range of 33 feet. Which makes it low power consumption. 
+2. Class 1 - It has a range of 330 feet. Which makes it More power consumption.
+Disadvantages of using Bluetooth:
+1. There can be interference issues as it uses 2.4GHz frequency.
+2. Some security issues.
+
+These security issues can be rectified by making sure of some things:
+1. Using the latest version
+2. Disable discovering mode
+3. Using String Authentication
+4. Limiting Bluetooth use in sensitive environments
+5. Monitoring device connections
+
+* Keeping Bluetooth in non-discoverable mode when not actively paring can reduce the risk of attacks.
+* Limiting Bluetooth use in sensitive areas to reduce the risk of interception or attacks.
+* Monitoring the Bluetooth device is most important. Eliminating suspicious and unused connections can help.
+ 
+We can use some methods to add an extra layer of security to a Bluetooth device:
+1. Multifactor Authentication (MFA)
+2. Implementing Device Whitelisting
+3. Using session keys with short lifetimes.
+4. Out-of-band (OOB) Paring
+5. Biometrics
+6. Disable it when not in use
+7. Monitoring
+8. Updating firewall regularly
+9. Role-bases access control
+10. Proximity-based security.
+
+Session Keys: 
+It is an encryption and decryption key that is generated to ensure the security of communication sessions based on a user and a computer, or between two computers.
+
+Out-of-band Paring:
+It refers to using an Out-of-Band (OOB) method like NFC or QR code to securely discover devices and exchange cryptographic keys for Bluetooth pairing, reducing risks like eavesdropping or MITM attacks.
+
+Role-based access control:
+It refers to the idea of assigning permissions to users based on their role within an organization.
+
+Proximity-based security:
+It refers to security systems that assess the validity of access requests without requiring physical contact with a person.
+
+Increasing the range of a Bluetooth device:
+The range of the Bluetooth device can be increased,
+1. Bluetooth 5.0 Long Range Mode
+This increases the range of Bluetooth by 4X. The power consumption is a bit higher than Bluetooth. It is mainly designed for power efficiency.
+2. Optimization Antenna Design:
+It increases signal efficiency. There will be no effect on the power we are using.
+3. Environmental Optimization: 
+Removing the obstacles can increase the range of a Bluetooth device. No more power is used.
+4. Using Mesh network:
+It is not efficient. Uses high power.
+
+Finally, Using Bluetooth 5.0 Long Range Mode is more effective. With that also reducing the obstacles helps a lot.
+
+
+Conclusion:
+Overall, Using Bluetooth helps in SAR Value and EMF Values. So using Bluetooth is a better option. 
+Also in Bluetooth, We use the latest (5.0) version with long-range mode with obstacle removal helps a lot in range.
+Adding some extra layer of security helps in the security of Bluetooth devices.
+By this, we can conclude using Bluetooth with these features optimizes power efficiency.
