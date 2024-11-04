@@ -1,0 +1,61 @@
+Body Node Coordinator Placement Algorithms for Wireless Body Area Network
+
+This is about the impact of the placement of a body node coordinator (BNC) on the longevity of a wireless body area network(WBAN). This tells about how different positions of the BNC on the human body affect the network's performance. BNC is crucial for managing communication between sensor nodes in WBAN and transferring data.
+
+So according to the study, we found that adding devices near the upper limb and head is optimal. It is not optimal to add it to waist.
+
+Worst scenario: Adding it to the waist
+Avg Scenario: Adding it to the head
+Best scenario: Adding it to the upper limb.
+
+Why is it not efficient to add it near the waist?
+	As it is at the central location, this may lead to more complex communication. Which increases energy communication. Also, there is an issue with node distribution. It may not align well with sensor nodes.
+
+Why is it effective to add it near the upper limb?
+	The upper limb is positioned between the central and distal parts of the body, providing a balanced coverage area for communication with sensor nodes located on different parts of the body. Also, it experiences fewer interfaces and signal effects. 
+
+Wireless Sensor Network (WSN): This is a set of distributed sensors that can monitor environmental phenomena and exchange that information with each other over wireless channels.
+
+WBAN users can move with sensor nodes with the same mobility pattern(Trajectories) but, WSN is generally used to be static.
+
+There are three major algorithms regarding BNC placement:
+1. DBP-I: Distance-based placement using iterative
+2. DBP-F: Distance-based placement fixed
+3. PBP: Position-based placement
+
+DBP-I and DBP-F focus on optimizing BNC placement by evaluating distances and energy levels of nodes, With DBP-I using iterative refinement and DBP-F providing a similar linear approach.
+
+PBP uses utility factors to place the BNC more directly aiming for a straightforward optimization based on node positions.
+
+Steps to follow for DBP-I:
+1. Place the BNC at an endpoint of the WBAN.
+2. Measure distances from the BNC to all nodes.
+3. If there are multiple nodes:
+    Calculate the maximum and minimum distances.
+    Compute the average distance and split nodes into two subsets based on this distance.
+    Move the BNC towards the center by the average distance.
+    Re-measure distances and compute Utility Factors for each subset.
+    Choose the subset with the higher Utility Factor sum and repeat until only one subset remains.
+
+Steps to follow for DBP-F:
+1. Place the BNC at an endpoint.
+2. Measure distances to all nodes.
+3. Find the maximum and minimum distances.
+4. Split nodes into two subsets based on an average distance.
+5. Move the BNC towards the center by the average distance.
+6. Re-measure distances and calculate Utility Factors.
+7. Compute the correlation and distance discrimination to determine the optimal position.
+
+Steps to follow for PBP:
+1. Place the BNC within the WBAN.
+2. Measure distances to all nodes.
+3. Calculate Utility Factors based on node energy and distances.
+4. Normalize the Utility Factors and compute weighted average coordinates.
+5. Move the BNC to the new computed position.
+
+Performance evaluation
+	So according to the evaluation, there is a factor that makes an algorithm better: depletion time (It is the amount of time it takes to consume a certain percentage of mineral reserve at a particular rate). 
+
+When it is a uniform distribution all the algorithms show similar efficiency. But when it is a non-uniform distribution, PBP shows an efficiency of up to 23.2% compared to DBP-F and 20.5% compared to DBP-I.
+
+According to this, It is highlighted that PBP is a better algorithm for energy efficiency compared to DBP-I and DBP-F. 
