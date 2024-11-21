@@ -1,1 +1,76 @@
+body {
+  font-family: 'Dancing Script', cursive; /* Cursive font */
+  margin: 0;
+  padding: 0;
+  background-color: #A7C7E7; /* Light blue background */
+  color: #333; /* Dark text color for readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.container {
+  text-align: center;
+  background: #ffffff; /* White background for the container */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #d1e7dd;
+  padding: 40px;
+  max-width: 450px;
+  max-height: 450px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 48px; /* Smaller font size for heading */
+  color: #007b83; /* Professional dark teal color */
+  font-weight: bold;
+  margin-bottom: 20px;
+  min-height: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="number"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"]:focus {
+  border-color: #007b83;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 131, 0.4);
+}
+
+button {
+  background-color: #007b83;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #005a60;
+}
+
+button:active {
+  background-color: #004c4f;
+  transform: scale(0.98);
+}
