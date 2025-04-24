@@ -1,41 +1,37 @@
-Here’s a polished **README.md** you can drop straight into your project root:
-
-```markdown
 # WBAN Optimization
 
-Wireless Body Area Networks (WBANs) connect sensor nodes on or around the human body to monitor vital signs and other physiological data. This repo implements and compares energy consumption in WBANs using both **non-genetic** and **genetic** algorithms, and provides a Flask-powered interactive site to visualize the results.
+Wireless Body Area Networks (WBANs) connect sensor nodes on or around the human body to monitor vital signs and other physiological data. This repository implements and compares energy consumption in WBANs using both non-genetic and genetic algorithms, and provides an interactive Flask-powered website to visualize the results.
 
 ## 🔍 Project Overview
 
 - **Energy Models**  
-  - **Non-Genetic Algorithm**  
-    Uses a fixed-distance model:  
+  - **Non-Genetic Algorithm**: Uses a fixed-distance model where  
     ```text
     energy = power_constant × distance
-    ```
-  - **Genetic Algorithm**  
-    Evolves node positions over generations to minimize total energy consumption.
+    ```  
+  - **Genetic Algorithm**: Evolves node positions over generations to minimize total energy.  
 
 - **Data & Code**  
-  - Core routines in `energycode.py` for both models  
-  - Sample dataset: `carbon_nanotubes.csv` for testing GA convergence
+  - Core routines in `energycode.py` for both models.  
+  - Sample dataset (`carbon_nanotubes.csv`) for GA testing.  
 
 - **Website**  
-  - **Backend**: Flask app (`energycode.py`, Jinja2 templates)  
-  - **Frontend**: HTML/CSS/JS under `src/` with Chart.js for charts
+  - Frontend in HTML/CSS/JS.  
+  - Backend in Flask (`energycode.py`).  
+  - Compare non-GA vs. GA side-by-side with interactive charts.
 
 ## 📁 Repository Structure
 
 ```text
 WBAN-Optimization/                    # Root directory
 ├── Architecture Design-01.pdf        # System design diagrams
-├── Documents/                        # Supporting documentation and notes
+├── Documents/                        # Supporting docs and notes
 ├── Notes/                            # Experimental observations and logs
 ├── Energy without GA.py              # Non-genetic energy model
 ├── Engergy Using GA.py               # GA-based model (no dataset)
 ├── Genetic Algorithm without DataSet.py
 ├── Genetic Algorithm with DataSet.py
-├── carbon_nanotubes.csv              # Sample dataset for GA
+├── carbon_nanotubes.csv              # Sample dataset
 ├── Website/                          # Interactive web application
 │   ├── energycode.py                 # Flask backend & energy routines
 │   ├── index.html                    # Landing page & input form
@@ -51,8 +47,7 @@ WBAN-Optimization/                    # Root directory
 │           ├── effect2.js
 │           ├── result.js
 │           └── script.js
-└── README.md                         # ← You are here
-```
+└── README.md                         # ← This file
 
 ## 📌 Why This Matters
 
