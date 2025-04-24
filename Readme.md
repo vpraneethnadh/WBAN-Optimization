@@ -19,18 +19,20 @@ Wireless Body Area Networks (WBANs) consist of sensor nodes placed on or around 
 
 ## 📌 Why This Matters
 
-- Energy efficiency is considered a foremost challenge to increase the lifetime of a WBAN. ([bjbas.springeropen.com](https://bjbas.springeropen.com/articles/10.1186/s43088-020-00064-w?utm_source=chatgpt.com))  
-- Sensor nodes in WBANs are battery-operated and require energy optimization to prolong their operational lifespan. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9370863/?utm_source=chatgpt.com))  
-- Optimized energy consumption reduces the need for frequent battery replacement or recharging, enhancing user comfort and compliance. ([arxiv.org](https://arxiv.org/abs/2109.14546?utm_source=chatgpt.com))  
-- Low-power operation enables continuous health monitoring for patients with chronic conditions. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8786514/?utm_source=chatgpt.com))  
-- Efficient energy usage reduces heat generation, improving patient safety and device reliability. ([link.springer.com](https://link.springer.com/article/10.1007/s11277-023-10361-z?utm_source=chatgpt.com))  
-- Energy-optimized protocols lower overall network expenditures and maintenance costs. ([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12841?utm_source=chatgpt.com))  
-- Sustainable energy management in WBANs is critical for long-term deployment in wearable medical devices. ([sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S2352484722005613?utm_source=chatgpt.com))  
-- Energy optimization supports scalability in multi-sensor systems for comprehensive physiological monitoring. ([researchgate.net](https://www.researchgate.net/publication/357884276_Energy_Efficiency_and_Reliability_Considerations_in_Wireless_Body_Area_Networks_A_Survey?utm_source=chatgpt.com))  
-- Minimizing energy consumption aligns with IoT green networking goals. ([link.springer.com](https://link.springer.com/article/10.1007/s11277-019-06651-0?utm_source=chatgpt.com))  
-- Reducing energy use decreases the environmental impact of disposable or short-lived devices. ([arxiv.org](https://arxiv.org/abs/1910.05444?utm_source=chatgpt.com))  
+Optimizing energy consumption in WBANs is not just a technical challenge—it is essential for real-world applications in healthcare and beyond:
 
-By focusing on energy optimization, this project addresses these critical challenges—extending device lifetime, enhancing patient safety, and supporting sustainable, scalable health monitoring solutions.
+- 🩺 **Prolongs Device Life**: Energy-efficient designs extend the battery life of sensor nodes. [[1]](https://bjbas.springeropen.com/articles/10.1186/s43088-020-00064-w)
+- 🔋 **Reduces Battery Dependence**: Minimizes the need for frequent recharging or replacement. [[2]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9370863/)
+- 😊 **Improves User Comfort**: Fewer disruptions increase patient comfort and compliance. [[3]](https://arxiv.org/abs/2109.14546)
+- 🏥 **Supports Continuous Monitoring**: Enables long-term health tracking for chronic patients. [[4]](https://pmc.ncbi.nlm.nih.gov/articles/PMC8786514/)
+- 🌡️ **Enhances Safety**: Reduces heat generation for safer device operation. [[5]](https://link.springer.com/article/10.1007/s11277-023-10361-z)
+- 💸 **Lowers Maintenance Costs**: Less frequent intervention lowers total network costs. [[6]](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12841)
+- 🌱 **Fosters Sustainability**: Promotes green practices in wearable medical tech. [[7]](https://www.sciencedirect.com/science/article/pii/S2352484722005613)
+- 🧪 **Scales with Complexity**: Efficient energy use helps scale systems with many sensors. [[8]](https://www.researchgate.net/publication/357884276_Energy_Efficiency_and_Reliability_Considerations_in_Wireless_Body_Area_Networks_A_Survey)
+- 🌍 **Aligns with Green IoT Goals**: Contributes to low-power, eco-friendly IoT. [[9]](https://link.springer.com/article/10.1007/s11277-019-06651-0)
+- ♻️ **Minimizes Waste**: Less energy usage = fewer disposable or short-lived devices. [[10]](https://arxiv.org/abs/1910.05444)
+
+By focusing on energy optimization, this project addresses these challenges—extending device lifetime, enhancing patient safety, and supporting sustainable, scalable health monitoring.
 
 ## 📁 Repository Structure
 
@@ -81,3 +83,4 @@ Each script will output energy consumption statistics to the console and/or gene
 
 To explore the interactive website:
 Navigate to the [`Website`](./Website) folder.  
+
