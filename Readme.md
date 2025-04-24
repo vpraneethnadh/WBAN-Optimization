@@ -18,6 +18,22 @@ Wireless Body Area Networks (WBANs) consist of sensor nodes placed on or around 
 
 ## 📁 Repository Structure
 
+WBAN-Optimization/             # Root directory
+├── Architecture Design-01.pdf # System design diagrams
+├── Documents/                 # Supporting documentation and notes
+├── Notes/                     # Experimental observations and logs
+├── Energy without GA.py       # Non-genetic energy model implementation
+├── Engergy Using GA.py        # GA-based energy model (no dataset)
+├── Genetic Algorithm without DataSet.py
+├── Genetic Algorithm with DataSet.py
+├── carbon_nanotubes.csv       # Sample dataset for GA convergence tests
+├── Website/                   # Interactive front-end & backend for web demo
+│ ├── index.html               # Landing page and input form
+│ ├── energycode.py            # Backend energy computation script
+│ └── result.html              # Displays computed energy values
+└── README.md                  # ← This file
+
+
 ## 📌 Why This Matters
 
 Optimizing energy consumption in WBANs is more than a technical objective—it’s critical for enabling efficient, safe, and sustainable health monitoring. Here's why:
