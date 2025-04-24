@@ -1,7 +1,6 @@
-```markdown
 # WBAN Optimization
 
-Wireless Body Area Networks (WBANs) consist of sensor nodes placed on or around the human body to monitor vital signs and other physiological data. This repository implements and compares energy consumption in WBANs using both non-genetic and genetic algorithms, and provides an interactive website showcasing simulation results.
+Wireless Body Area Networks (WBANs) consist of sensor nodes placed on or around the human body to monitor vital signs and other physiological data. This repository implements and compares energy consumption in WBANs using both non-genetic and genetic algorithms. In addition, it includes a simple interactive website showcasing the simulation results.
 
 ## 🔍 Project Overview
 
@@ -17,70 +16,40 @@ Wireless Body Area Networks (WBANs) consist of sensor nodes placed on or around 
   - Interactive front-end to enter network parameters and visualize energy results.  
   - Located in the [`Website`](./Website) folder.
 
-## 📌 Why This Matters
-
-Optimizing energy consumption in WBANs is not just a technical challenge—it is essential for real-world applications in healthcare and beyond:
-
-- 🩺 **Prolongs Device Life**: Energy-efficient designs extend the battery life of sensor nodes. [[1]](https://bjbas.springeropen.com/articles/10.1186/s43088-020-00064-w)
-- 🔋 **Reduces Battery Dependence**: Minimizes the need for frequent recharging or replacement. [[2]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9370863/)
-- 😊 **Improves User Comfort**: Fewer disruptions increase patient comfort and compliance. [[3]](https://arxiv.org/abs/2109.14546)
-- 🏥 **Supports Continuous Monitoring**: Enables long-term health tracking for chronic patients. [[4]](https://pmc.ncbi.nlm.nih.gov/articles/PMC8786514/)
-- 🌡️ **Enhances Safety**: Reduces heat generation for safer device operation. [[5]](https://link.springer.com/article/10.1007/s11277-023-10361-z)
-- 💸 **Lowers Maintenance Costs**: Less frequent intervention lowers total network costs. [[6]](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12841)
-- 🌱 **Fosters Sustainability**: Promotes green practices in wearable medical tech. [[7]](https://www.sciencedirect.com/science/article/pii/S2352484722005613)
-- 🧪 **Scales with Complexity**: Efficient energy use helps scale systems with many sensors. [[8]](https://www.researchgate.net/publication/357884276_Energy_Efficiency_and_Reliability_Considerations_in_Wireless_Body_Area_Networks_A_Survey)
-- 🌍 **Aligns with Green IoT Goals**: Contributes to low-power, eco-friendly IoT. [[9]](https://link.springer.com/article/10.1007/s11277-019-06651-0)
-- ♻️ **Minimizes Waste**: Less energy usage = fewer disposable or short-lived devices. [[10]](https://arxiv.org/abs/1910.05444)
-
-By focusing on energy optimization, this project addresses these challenges—extending device lifetime, enhancing patient safety, and supporting sustainable, scalable health monitoring.
-
 ## 📁 Repository Structure
 
-```
-WBAN-Optimization/
-├── Architecture Design-01.pdf    # System design diagrams
-├── Documents/                   # Supporting docs and notes
-├── Notes/                       # Experimental observations
-├── Energy without GA.py         # Non-genetic energy model
-├── Engergy Using GA.py          # GA-based model (without dataset)
-├── Genetic Algorithm without DataSet.py
-├── Genetic Algorithm with DataSet.py
-├── carbon_nanotubes.csv         # Sample dataset
-├── Website/                     # Front-end & backend code for website
-└── README.md                    # ← You are here
-```
+## 📌 Why This Matters
 
-## ⚙️ Getting Started
+Optimizing energy consumption in WBANs is more than a technical objective—it’s critical for enabling efficient, safe, and sustainable health monitoring. Here's why:
 
-### Prerequisites
+- 🩺 **Prolongs Device Life**  
+  Energy-efficient nodes increase battery longevity, allowing for longer operation without maintenance. [[1]](https://bjbas.springeropen.com/articles/10.1186/s43088-020-00064-w)
 
-- Python 3.7+  
-- pip (Python package manager)
+- 🔋 **Reduces Battery Dependence**  
+  Minimizes the need for frequent battery replacements or recharges, especially in hard-to-reach implantables. [[2]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9370863/)
 
-### Install Dependencies
+- 😊 **Improves User Comfort**  
+  Less frequent interactions and smoother operation enhance patient comfort and usability. [[3]](https://arxiv.org/abs/2109.14546)
 
-```bash
-pip install numpy pandas matplotlib
-```
+- 🏥 **Supports Continuous Monitoring**  
+  Enables long-term monitoring of vital signs in patients with chronic conditions or during recovery. [[4]](https://pmc.ncbi.nlm.nih.gov/articles/PMC8786514/)
 
-*(If you add more libraries, list them here or provide a `requirements.txt`.)*
+- 🌡️ **Enhances Safety**  
+  Lower energy usage means reduced heat dissipation, making devices safer for long-term skin contact. [[5]](https://link.springer.com/article/10.1007/s11277-023-10361-z)
 
-### Running the Simulations
+- 💸 **Lowers Maintenance Costs**  
+  Less frequent intervention translates to significant cost savings in large-scale medical deployments. [[6]](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12841)
 
-1. **Non-Genetic Model**  
-   ```bash
-   python "Energy without GA.py"
-   ```
+- 🌱 **Fosters Sustainability**  
+  Energy-aware designs reduce electronic waste and align with eco-conscious health tech practices. [[7]](https://www.sciencedirect.com/science/article/pii/S2352484722005613)
 
-2. **Genetic Algorithm Model**  
-   ```bash
-   python "Genetic Algorithm with DataSet.py"
-   ```
+- 🧪 **Scales with Complexity**  
+  Optimization makes it feasible to deploy more nodes without exponential increases in power needs. [[8]](https://www.researchgate.net/publication/357884276_Energy_Efficiency_and_Reliability_Considerations_in_Wireless_Body_Area_Networks_A_Survey)
 
-Each script will output energy consumption statistics to the console and/or generate plots in the working directory.
+- 🌍 **Aligns with Green IoT Goals**  
+  WBANs are part of the broader Internet of Things, where energy efficiency is key. [[9]](https://link.springer.com/article/10.1007/s11277-019-06651-0)
 
-## 🌐 Website
+- ♻️ **Minimizes Waste**  
+  Efficient energy use leads to longer device lifespans, which reduces medical tech turnover and environmental impact. [[10]](https://arxiv.org/abs/1910.05444)
 
-To explore the interactive website:
-Navigate to the [`Website`](./Website) folder.  
-
+This project directly tackles these concerns, advancing both practical performance and sustainable design in next-generation healthcare monitoring.
